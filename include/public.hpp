@@ -1,0 +1,18 @@
+#ifndef PUBLIC_HPP_
+#define PUBLIC_HPP_
+
+enum MsgType{
+    LOGIN_MSG=1,
+    LOGIN_MSG_ACK,
+    LOGIN_OUT_MSG,
+    REGISTER_MSG,
+    REGISTER_MSG_ACK,
+    CHAT_ONE_MSG,
+    ADD_FRIEND_MSG,
+    CREATE_GROUP_MSG,
+    ADD_GROUP_MSG,
+    GROUP_CHAT_MSG
+};
+
+
+#endif //PUBLIC_HPP_
